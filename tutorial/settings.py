@@ -14,6 +14,29 @@ BOT_NAME = 'tutorial'
 SPIDER_MODULES = ['tutorial.spiders']
 NEWSPIDER_MODULE = 'tutorial.spiders'
 
+# crawl in breadth-first order
+DEPTH_PRIORITY = 1
+SCHEDULER_DISK_QUEUE = 'scrapy.squeue.PickleFifoDiskQueue'
+SCHEDULER_MEMORY_QUEUE = 'scrapy.squeue.FifoMemoryQueue'
+
+# no depth limit
+DEPTH_LIMIT = 0
+
+# enable to collect depth information
+DEPTH_STATS = True
+
+# enable to collect verbose depth information
+DEPTH_STATS_VERBOSE = True
+
+# delay in one website or same domain
+DOWNLOAD_DELAY = 2 #2000ms of delay
+
+# now we use 'utf-8' encoding
+#LOG_ENCODING = 'utf-8'
+
+# we respect the robot.txt strategy
+ROBOTSTXT_OBEY = True
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'tutorial (+http://www.yourdomain.com)'

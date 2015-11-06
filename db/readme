@@ -1,0 +1,6 @@
+- To use sqlite3 db on command line:
+just type ./sqlite3 crawlerdb.db
+this selects the crawlerdb database by default and allows you to run sqlite commands on this database
+
+- To quit command line type:
+.quit

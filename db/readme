@@ -1,6 +1,4 @@
-- To use sqlite3 db on command line:
-just type ./sqlite3 crawlerdb.db
-this selects the crawlerdb database by default and allows you to run sqlite commands on this database
-
-- To quit command line type:
-.quit
+- crawlerdb.db is the central database of the web crawler project and contains all tables used in the project
+- RestServer is a web server that handles CRUD operation in SQLite databases by providing a REST API
+- SQLiteStudio is a GUI tool to manage a SQLite database. It is similar to MySQL workbench and can be used to perform any operation on a SQLite DB
+- sqlite3 is a SQLite binary executable that can be used to perform any operation on a SQLite DB using command line interface

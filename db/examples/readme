@@ -1,0 +1,4 @@
+- These are simple examples showing how to do Select, Insert, Update and Delete operations on a database table using Python REST calls.
+- The example taken here is of 'TestTable' which has two columns:
+1. ID_PRIMARY: which is the primary key of the table with AUTO_INCREMENT set to true
+2. RandomString: which is VARCHAR(40) and stores a string

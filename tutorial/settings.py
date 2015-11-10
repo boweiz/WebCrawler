@@ -88,6 +88,8 @@ ROBOTSTXT_OBEY = True
 #    'tutorial.pipelines.SomePipeline': 300,
 #}
 
+ITEM_PIPELINES = {'scrapy.contrib.pipeline.images.ImagesPipeline': 1}
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
 # NOTE: AutoThrottle will honour the standard settings for concurrency and delay

@@ -19,3 +19,7 @@ class ImgItem(scrapy.Item):
 	title = scrapy.Field()
 	image_urls = scrapy.Field()
 	images = scrapy.Field()
+
+class CraigslistSampleItem(scrapy.Item):
+    title = scrapy.Field()
+    link = scrapy.Field()

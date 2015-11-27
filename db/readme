@@ -1,0 +1,4 @@
+- crawlerdb.db is the central database of the web crawler project and contains all tables used in the project
+- RestServer is a web server that handles CRUD operation in SQLite databases by providing a REST API
+- SQLiteStudio is a GUI tool to manage a SQLite database. It is similar to MySQL workbench and can be used to perform any operation on a SQLite DB
+- sqlite3 is a SQLite binary executable that can be used to perform any operation on a SQLite DB using command line interface
